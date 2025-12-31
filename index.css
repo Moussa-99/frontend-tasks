@@ -359,8 +359,9 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 8rem;
+    position: relative;
     .left {
-      width: 69%;
+      width: 70%;
       display: flex;
       flex-direction: column;
       flex-wrap: wrap;
@@ -378,9 +379,17 @@ header {
       }
     }
     .right {
+      width: 70%;
+      height: 80vh;
+      display: flex;
+      justify-content: center;
+      align-items: right;
+      position: absolute;
       img {
         width: 100%;
+        right: -25rem;
         bottom: 0px;
+        position: absolute;
       }
     }
   }
