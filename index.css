@@ -352,6 +352,8 @@ header {
   justify-content: center;
   align-items: center;
   background-color: #f1bb13;
+  padding-top: 150px;
+  padding-bottom: 150px;
   .parent {
     width: 80%;
     display: flex;
@@ -400,6 +402,8 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
 
   .parent {
     width: 60%;
@@ -407,7 +411,7 @@ header {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    padding-top: 150px;
+
     .left {
       width: 50%;
       display: flex;
@@ -531,6 +535,37 @@ header {
         background-image: url("./esg.jpg");
         background-size: cover;
       }
+    }
+  }
+}
+#section8 {
+  width: 100%;
+  height: 200vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #34365a;
+  position: relative;
+  .section1 {
+    width: 100%;
+    height: 50rem;
+    background-image: url("./manager-woman-leading-4-min.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    .text {
+      width: 40%;
+      height: 23rem;
+      background-color: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      bottom: -17rem;
     }
   }
 }
