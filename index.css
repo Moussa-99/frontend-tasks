@@ -504,7 +504,7 @@ header {
           display: flex;
           align-items: left;
           flex-direction: column;
-          padding: 0.3rem;
+          padding: 0.2rem;
           h2 {
             font-size: 26px;
             font-weight: 700;
@@ -600,7 +600,8 @@ header {
     position: absolute;
     h1 {
       position: absolute;
-      font-size: 48px;
+      font-size: 44px;
+      bottom: -10px;
     }
   }
   .section3 {
@@ -613,7 +614,7 @@ header {
     background-image: url("./vbvbvbvb.jpg");
     background-size: cover;
     position: absolute;
-    bottom: 25rem;
+    bottom: 15rem;
     justify-content: space-between;
     padding: 1rem;
     .son {
